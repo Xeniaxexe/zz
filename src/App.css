@@ -1,0 +1,41 @@
+.App {
+  position: absolute;
+  width: 1606px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    86.25deg,
+    #eab11e -24.32%,
+    rgba(218, 177, 70, 0.852888) -24.31%,
+    rgba(217, 175, 70, 0.858391) 21.16%,
+    rgba(217, 171, 70, 0.867836) 72.5%,
+    #cf7c3f 79.23%
+  );
+  box-shadow: 0px 4px 4px #ca5252;
+}
+.openModalBtn {
+  position: absolute;
+  width: 345px;
+  height: 55px;
+  left: 60px;
+  top: 455px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.27em;
+
+  background: linear-gradient(90deg, #ca5252 11.14%, #d8b250 103.61%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
